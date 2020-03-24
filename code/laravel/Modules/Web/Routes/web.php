@@ -11,6 +11,6 @@
 |
 */
 
-Route::prefix('web')->group(function() {
-    Route::get('/', 'WebController@index');
+Route::prefix('/')->group(function() {
+    Route::get('/', 'WebController@index')->name('web.module');
 });

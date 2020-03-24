@@ -1,5 +1,6 @@
 <?php
 
 return [
-    'name' => 'Crm'
+    'name' => 'Crm',
+    'version' => '2.0.2'
 ];
